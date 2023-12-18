@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* 1. Element Selector */
+        div{
+            color: red;
+        }
+
+        /* 2. Class Selector */
+        .one{
+            color: blue;
+        }
+
+        /* 3. ID Selector */
+        #two{
+            color: green;
+        }
+
+        /* 4. Child Selector */
+        div > p {
+            color: rgb(67, 227, 18);
+            
+        }
+
+        /* 5. Descendant Selector */
+        div  p {
+            color: black;
+            background-color: yellow;
+        }
+
+        /* 6. Universal Selector */
+        * {
+            margin: 5px;
+            padding: 0px;
+        }
+
+        /* 7. Pseudo Selector */
+        a:visited{
+            color: rgb(8, 215, 153);
+        }
+        a:link{
+            color: green;
+        }
+        a:active{
+            background-color: red;
+        }
+        a:hover{
+            color: yellow;
+        }
+        p:first-child{
+            color: aqua;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        1. Element Selector 
+        (I am div)
+        <article>
+            <p> 
+                4. Descendant Selector
+                (I am inside div and article )
+            </p>
+        </article>  
+    </div>
+
+    <div>
+        1. Element Selector 
+        (Hello)
+    </div>
+
+    <div class="one">
+       2. Class Selector 
+       (My name is Chetan)
+    </div>
+
+    <div id="two">
+        3. ID Selector
+        (Anand)
+    </div>
+
+    <a href="https://www.google.com">Go to Google</a>
+    <a href="https://www.facebook.com">Go to Facebook</a>
+    <a href="https://www.facebook2.com">Go to Facebook2</a>
+
+    <main class="three">
+        <p>I am first</p>
+        <p>I am second</p>
+    </main>
+
+</body>
+</html>
