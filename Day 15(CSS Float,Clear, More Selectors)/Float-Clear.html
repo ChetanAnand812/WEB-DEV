@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Float & Clear</title>
+    <style>
+        .cards{
+            border: 2px solid black;
+            display: flow-root;
+        }
+        img{
+            float: right;
+        }
+        .card{
+            border: 2px solid greenyellow;
+        }
+        .card:nth-child(3){
+            background-color: aqua;
+            clear: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="cards">
+        <img src="https://t3.ftcdn.net/jpg/05/85/86/44/360_F_585864419_kgIYUcDQ0yiLOCo1aRjeu7kRxndcoitz.jpg" alt="" width="230">
+        <div class="card">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident sunt, ipsa, nulla quia asperiores recusandae fugit quod officiis sed autem, reprehenderit aut deleniti officia ut aliquid error quas? Officia iusto doloremquehjghjbjgjgghgghgg</p>
+        </div>
+        <div class="card">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni harum perferendis provident autem asperiores. Beatae aut animi, vitae dolorum quis vel nulla debitis distinctio voluptate sunt eos nobis officiis voluptas delectus est commodi quia! Veritatis voluptatem voluptas, cupiditate itaque nemo explicabo aliquam consequuntur culpa quisquam accusantium! Error quis neque omnis autem! Ipsum, et. Incidunt unde officiis aliquid aperiam autem impedit placeat quis aut, quod eum vel sapiente rerum? Aut ratione provident aspernatur vero quod sit illo culpa dolores laboriosam! Tempora quia facere neque voluptatibus. Adipisci, officia veritatis, ea laborum provident culpa saepe incidunt tempore rem unde dolorem, libero atque necessitatibus?</div>
+        <div class="card">Card3</div>
+    </div>
+</body>
+</html>

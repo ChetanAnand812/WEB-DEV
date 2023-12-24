@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        :root{
+            --firstcolor:rgb(234, 82, 82);
+            --seccolor:rgb(91, 91, 252);
+            --thirdcolor:rgb(90, 251, 90);
+            --defpad:23px;
+        }
+        body{
+            background-color: var(--thirdcolor);
+        }
+        ul{
+            display: flex;
+        }
+        ul li{
+            list-style: none;
+            padding: var(--defpad);
+            background-color: var(--firstcolor);
+        }
+        ul li:first-child{
+            background-color: var(--seccolor);
+        }
+        ul li:nth-child(2){
+            background-color: var(--thirdcolor);
+        }
+        .intro{
+            background-color: var(--firstcolor);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <ul>
+            <li>Chetan</li>
+            <li>Anand</li>
+            <li>Photography</li>
+        </ul>
+    </div>
+    <div class="intro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem fuga eligendi earum vel soluta voluptatum iure nihil minima. Voluptatibus explicabo eos quo qui repudiandae non!</div>
+</body>
+</html>
