@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transforms</title>
+    <style>
+        .box{
+            height: 50px;
+            width: 50px;
+            background-color: antiquewhite;
+            border: 2px solid black;
+            transform: rotate(55deg);   /* (0.125turn)  we can use in x,y and z axis*/ 
+        /*  transform: rotateY(50deg); */
+        /*  transform: scale(2.8);  x, y and z axix */
+        /*  transform: skew(35deg); x and y axix */
+        /*  transform: translatey(34%);  */
+        /*  transform-origin: 0% 0%;    */
+            display: flex;
+            justify-content: center;
+            align-items: center;      
+        }
+        .container{
+            width: 95vw;
+            height: 80vh;
+            border: 2px solid green;
+        /*  display: flex;
+            justify-content: center;
+            align-items: center;      */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            box
+        </div>
+    </div>
+</body>
+</html>
