@@ -139,22 +139,38 @@ nav button{
     
 }
 
-
-.secImg{
+.secImg1{
     position: relative;
 }
 
-.secImg img{
-    width: 555px;
+.secImg1 img{
+    width: 500px;
     z-index: 10;
     position: relative; 
 }
 
-.secImg video{
+.secImg1 video{
     position: absolute; 
-    top: 51px;
-    right: 0;
-    width: 555px;
+    top: 100px;
+    right: 35px;
+    width: 400px;
+}
+
+.secImg2{
+    position: relative;
+}
+
+.secImg2 img{
+    width: 500px;
+    z-index: 10;
+    position: relative; 
+}
+
+.secImg2 video{
+    position: absolute;
+    top: 77px;
+    right: 102px;
+    width: 302px;
 }
 
 section.first >div{
@@ -245,12 +261,24 @@ footer .questions{
         flex-wrap: wrap;
     }   
 
-    .secImg img{
-        width: 305px;
+    .secImg1 img{
+        width: 350px; 
     }
     
-    .secImg video{
-        width: 305px;
+    .secImg1 video{
+        top: 86px;
+        right: 44px;
+        width: 260px;
+    }
+
+    .secImg2 img{
+        width: 350px;
+    }
+    
+    .secImg2 video{
+        top: 66px;
+        right: 71px;
+        width: 210px;
     }
 
     .hero> :first-child{
