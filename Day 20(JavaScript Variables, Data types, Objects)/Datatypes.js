@@ -23,3 +23,5 @@ obj.salary = "100crores";
 console.log(obj);
 obj.salary = "500crores";
 console.log(obj);
+
+
