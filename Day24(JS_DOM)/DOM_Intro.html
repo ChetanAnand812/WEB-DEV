@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Object Model</title>
+</head>
+<body>
+    <!--DOM represents the page content as HTML-->
+    <!--BOM(Browser Object Model) represents additional objects provided by the browser(host environment) for working with everything except the document
+    The function alert/confirm/promt are also a part of BOM-->
+    <div class="container">
+        <div class="box">
+            This is a box
+        </div>
+    </div>
+    <script>
+        document.title = "Chetan is good"
+        console.log(document.title)
+        console.log(document.body) 
+        document.body.style.backgroundColor = "orange"
+    </script>
+</body>
+</html>
