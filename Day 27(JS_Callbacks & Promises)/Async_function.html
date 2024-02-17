@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // JS is Async programming
+        console.log("Chetan")        // print first
+        console.log("Anand")         // print second
+
+        setTimeout(() => {
+            console.log("I am inside settimeout")       // print fourth
+        }, 0)
+
+        setTimeout(() => {
+            console.log("I am inside settimeout 2")     // print fifth
+        }, 0)
+
+        console.log("The End")          // print third
+    </script>
+</body>
+</html>
