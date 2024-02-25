@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destructurnig</title>
+</head>
+<body>
+    <b>Destructurnig assignment is used to unpack values from an array, or properties from objects, into distinct variables.</b>
+    <br>
+    <br>
+    <b> In JavaScript, hoisting refers to the built-in behavior of the language through which declarations of functions, variables, and classes are moved to the top of their scope – all before code execution. In turn, this allows us to use functions, variables, and classes before they are declared.</b>
+    <script>
+        let [x, y] = [2, 7, 5]
+        console.log(x, y)
+
+        // Array Destructurning
+        let [a, b, ...rest] = [2, 7, 5, 8, 9, 1]
+        console.log(a, y, rest)
+
+        // Object Destructurning
+        let obj = {
+            c: 1,
+            d: 2,
+            e: 3
+        }
+        let {c, d} = obj
+        console.log(c, d)
+
+        // Spread Syntax
+        function sum(a, b, c){
+            return a+b+c
+        }
+
+        let arr = [1, 4, 6]
+        console.log(sum(arr[0], arr[1], arr[2]))
+        console.log(sum(...arr))
+
+    </script>
+</body>
+</html>
