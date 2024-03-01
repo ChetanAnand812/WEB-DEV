@@ -78,3 +78,46 @@ body{
 .header > *{
     padding: 20px;
 }
+
+.spotifyPlaylist{
+  padding: 16px;
+}
+
+.cardContainer{
+  display: flex;
+  margin: 30px;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.card{
+  width: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #252525 ;
+  position: relative;
+}
+
+.card > *{
+  padding-top: 10px;
+}
+
+.card img{
+  width: 100%;
+  object-fit: contain;
+}
+
+.play{
+  width: 28px;
+  height: 28px;
+  background-color: rgb(5, 214, 5);
+  border-radius: 50%;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 168px;
+  right: 17px;
+  opacity: 1;
+  transition: all 1s ease-out;
+}
